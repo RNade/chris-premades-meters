@@ -49,7 +49,7 @@ async function aimCrosshair({token, maxRange, crosshairsConfig, centerpoint, dra
                     valid = true;
                 }
                 crosshairs.draw();
-                crosshairs.label = distance + '/' + maxRange + 'ft.';
+                crosshairs.label = distance + '/' + maxRange + 'mt.';
             }
         }
     };
